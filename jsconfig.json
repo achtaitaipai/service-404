@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "esnext",
+    "target": "es2017",
+    "checkJs": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules"]
+}

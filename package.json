@@ -1,0 +1,14 @@
+{
+  "name": "service-404",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "live-server ."
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "odyc": "^0.0.102",
+    "typescript": "^5.8.3"
+  }
+}
