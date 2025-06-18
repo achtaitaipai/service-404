@@ -414,7 +414,6 @@ function patient() {
       },
 
       async onCollide(target) {
-        console.log(game.turn);
         if (checkDeath(target)) return;
 
         check();
