@@ -9,7 +9,8 @@ import {
 } from "./src/utils.js";
 import { getLang, setLang, t, texts } from "./src/translations.js";
 
-const MAX_TURN = 100000;
+// const MAX_TURN = 100000;
+const MAX_TURN = 100;
 
 /**@type {number}*/
 let tipIndex;
@@ -69,6 +70,12 @@ const game = createGame({
           hasTalk = true;
         },
       };
+    },
+    C: {
+      sprite: nurseSprite(),
+      onCollide() {
+        game.openDialog(t("rooms_tips"));
+      },
     },
     h: {
       sprite: `
@@ -271,7 +278,7 @@ const game = createGame({
   xxxxxx	^xhHx^  xxxxxx
 	xxxxxx	xxxxxx  xxxxxx
   xxxxxx	xxddxx  xxxxxx
-  xxxxxx	......  xxxxxx
+  xxxxxx	....C.  xxxxxx
   xxxxxx	......  xxxxxx
   xxxxxx	......  xxxxxx
   `,
@@ -461,7 +468,7 @@ function patient() {
         console.log(game.turn);
         if (game.turn > MAX_TURN) {
           setup();
-          game.end(t("end"), t("score") + deceased);
+          game.end(t("end"), t("score") + deceased, "_Service 404_");
         }
       },
     };

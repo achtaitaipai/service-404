@@ -21,7 +21,6 @@ export const texts = {
       "Son voyage s'arrête ici.",
       "La mort l'a emporté.",
     ],
-    "game-over": "Vous êtes virée!",
     check_health_critical: [
       "Son état est préoccupant.",
       "Pas sûr qu'on puisse aller plus mal que ça.",
@@ -36,6 +35,8 @@ export const texts = {
       "Vous parlez météo.",
       "Vous en apprenez plus sur la philatélie.",
       "C'est une sacrée pipelette.",
+      "A présent vous savez tout de la défense sicilienne.",
+      "Vous ignoriez que les forêts européennes étaient si variées.",
     ],
     talk_good: [
       "Il semble que la conversation lui ait fait du bien.",
@@ -56,7 +57,6 @@ export const texts = {
     ],
 
     tips: [
-      '"Les chambres sont numérotées de gauche à droite et de haut en bas."',
       '"Alors, comment c\'était hier soir ?"',
 
       '"Le problème, c\'est que tout prend du temps, même ausculter..."',
@@ -64,6 +64,8 @@ export const texts = {
       '"Vu le temps qu\'il fait, on est aussi bien ici de toute façon..."',
       '"Le pire, c\'est lorsque le traitement se passe mal !"',
     ],
+    rooms_tips:
+      '"Les chambres sont numérotées de gauche à droite et de haut en bas."',
 
     flowers: [
       "Elles sentent plutôt bon.",
