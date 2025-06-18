@@ -9,8 +9,8 @@ import {
 } from "./src/utils.js";
 import { getLang, setLang, t, texts } from "./src/translations.js";
 
-// const MAX_TURN = 100000;
-const MAX_TURN = 100;
+const MAX_TURN = 100000;
+// const MAX_TURN = 100;
 
 /**@type {number}*/
 let tipIndex;
@@ -476,3 +476,7 @@ function patient() {
 }
 
 await game.openMessage("_Service 404_");
+await game.openMenu({
+  English: () => setLang("en"),
+  Français: () => setLang("fr"),
+});
