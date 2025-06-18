@@ -110,7 +110,7 @@ export const texts = {
       "You learn more about stamp collecting.",
       "They sure are talkative.",
       "Now you know everything about the Sicilian Defense.",
-      "You didn’t know European forests were so diverse.",
+      "You didn't know European forests were so diverse.",
     ],
     talk_good: [
       "The conversation seems to have lifted their spirits.",
@@ -134,15 +134,15 @@ export const texts = {
       '"So, how was last night?"',
       '"The problem is, everything takes time, even examining..."',
       '"When I feel their mood is low, I take time to talk with them..."',
-      '"With this weather, we’re better off staying here anyway..."',
+      '"With this weather, we\'re better off staying here anyway..."',
       '"The worst is when treatment goes wrong!"',
     ],
     rooms_tips: '"Rooms are numbered from left to right, top to bottom."',
 
     flowers: [
       "They smell quite nice.",
-      "Whoever bought this wasn’t very imaginative.",
-      "You think it’s a lovely gesture.",
+      "Whoever bought this wasn't very imaginative.",
+      "You think it's a lovely gesture.",
     ],
     end: "Your shift is over, you head home to sleep.",
     score: "Deaths: ",
